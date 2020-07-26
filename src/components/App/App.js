@@ -18,14 +18,14 @@ const business = {
 
 
 
-const business = [business,business,business,business,business,business];
+const businesses = [business,business,business,business,business,business];
 
 function App() {
   return (
     <div class="App">
       <h1>ravenous</h1>
       <SearchBar />
-      <BusinessList business = {business}/>
+      <BusinessList businesses = {businesses}/>
       </div>
   );
 }
